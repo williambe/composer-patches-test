@@ -1,0 +1,410 @@
+[32mNo patches found for cweagans/composer-patches.[39m
+[32mGathering patches for root package.[39m
+[32mGathering patches for dependencies. This might take a minute.[39m
+[32mFound 10 patches for drupal/core.[39m
+[32mNo patches found for composer/installers.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for drupal-composer/drupal-scaffold.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for symfony/yaml.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for symfony/finder.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for drupal/console-extend-plugin.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for zendframework/zend-stdlib.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for zendframework/zend-escaper.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for zendframework/zend-feed.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for psr/http-message.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for zendframework/zend-diactoros.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for twig/twig.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for symfony/polyfill-mbstring.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for symfony/translation.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for symfony/validator.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for symfony/serializer.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for symfony/routing.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for paragonie/random_compat.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for symfony/http-foundation.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for symfony/psr-http-message-bridge.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for symfony/process.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for symfony/polyfill-iconv.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for symfony/event-dispatcher.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for psr/log.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for symfony/debug.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for symfony/http-kernel.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for symfony/dependency-injection.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for symfony/console.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for symfony/class-loader.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for symfony-cmf/routing.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for stack/builder.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for masterminds/html5.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for guzzlehttp/psr7.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for guzzlehttp/promises.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for guzzlehttp/guzzle.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for doctrine/lexer.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for egulias/email-validator.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for easyrdf/easyrdf.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for doctrine/inflector.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for doctrine/collections.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for doctrine/cache.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for doctrine/annotations.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for doctrine/common.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for composer/semver.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for asm89/stack-cors.[39m
+[32mPatches already gathered. Skipping[39m
+  - Applying patches for [32mdrupal/core[39m
+    [32mhttps://www.drupal.org/files/issues/1356276-408--8.4.x.patch[39m ([33m1356276 - Allow profiles to provide a base/parent profile and load them in the correct order[39m)
+[33mcd 'web/core' && git --git-dir=. apply --check '-p1' '/var/folders/56/3lq570yx4ln1j2mjw_rgf4_80000gn/T/5a29280878b23.patch'[39m
+[37;41merror: core/core.services.yml: No such file or directory
+error: core/includes/install.core.inc: No such file or directory
+error: core/includes/install.inc: No such file or directory
+error: core/lib/Drupal/Core/Config/ConfigInstaller.php: No such file or directory
+error: core/lib/Drupal/Core/Config/ExtensionInstallStorage.php: No such file or directory
+error: core/lib/Drupal/Core/Config/InstallStorage.php: No such file or directory
+error: core/lib/Drupal/Core/EventSubscriber/ConfigImportSubscriber.php: No such file or directory
+error: core/lib/Drupal/Core/Extension/ExtensionDiscovery.php: No such file or directory
+error: core/lib/Drupal/Core/Extension/ModuleInstaller.php: No such file or directory
+error: core/modules/config/tests/src/Functional/ConfigImportInstallProfileTest.php: No such file or directory
+error: core/modules/system/src/Form/ModulesUninstallForm.php: No such file or directory
+error: core/modules/system/system.module: No such file or directory
+[39;49m
+[33mcd 'web/core' && git --git-dir=. apply --check '-p0' '/var/folders/56/3lq570yx4ln1j2mjw_rgf4_80000gn/T/5a29280878b23.patch'[39m
+[37;41merror: a/core/core.services.yml: No such file or directory
+error: a/core/includes/install.core.inc: No such file or directory
+error: a/core/includes/install.inc: No such file or directory
+error: a/core/lib/Drupal/Core/Config/ConfigInstaller.php: No such file or directory
+error: a/core/lib/Drupal/Core/Config/ExtensionInstallStorage.php: No such file or directory
+error: a/core/lib/Drupal/Core/Config/InstallStorage.php: No such file or directory
+error: a/core/lib/Drupal/Core/EventSubscriber/ConfigImportSubscriber.php: No such file or directory
+error: a/core/lib/Drupal/Core/Extension/ExtensionDiscovery.php: No such file or directory
+error: a/core/lib/Drupal/Core/Extension/ModuleInstaller.php: No such file or directory
+error: a/core/modules/config/tests/src/Functional/ConfigImportInstallProfileTest.php: No such file or directory
+error: a/core/modules/system/src/Form/ModulesUninstallForm.php: No such file or directory
+error: a/core/modules/system/system.module: No such file or directory
+[39;49m
+[33mcd 'web/core' && git --git-dir=. apply --check '-p2' '/var/folders/56/3lq570yx4ln1j2mjw_rgf4_80000gn/T/5a29280878b23.patch'[39m
+[33mcd 'web/core' && git --git-dir=. apply '-p2' '/var/folders/56/3lq570yx4ln1j2mjw_rgf4_80000gn/T/5a29280878b23.patch'[39m
+    [32mhttps://www.drupal.org/files/issues/2880374-remove-experimental-warnings-6.patch[39m ([33m2880374 - Experimental modules should not have warnings after being installed[39m)
+[33mcd 'web/core' && git --git-dir=. apply --check '-p1' '/var/folders/56/3lq570yx4ln1j2mjw_rgf4_80000gn/T/5a292808d45cf.patch'[39m
+[37;41merror: core/modules/help/src/Controller/HelpController.php: No such file or directory
+error: core/modules/help/tests/src/Functional/ExperimentalHelpTest.php: No such file or directory
+error: core/modules/system/system.install: No such file or directory
+[39;49m
+[33mcd 'web/core' && git --git-dir=. apply --check '-p0' '/var/folders/56/3lq570yx4ln1j2mjw_rgf4_80000gn/T/5a292808d45cf.patch'[39m
+[37;41merror: a/core/modules/help/src/Controller/HelpController.php: No such file or directory
+error: a/core/modules/help/tests/src/Functional/ExperimentalHelpTest.php: No such file or directory
+error: a/core/modules/system/system.install: No such file or directory
+[39;49m
+[33mcd 'web/core' && git --git-dir=. apply --check '-p2' '/var/folders/56/3lq570yx4ln1j2mjw_rgf4_80000gn/T/5a292808d45cf.patch'[39m
+[33mcd 'web/core' && git --git-dir=. apply '-p2' '/var/folders/56/3lq570yx4ln1j2mjw_rgf4_80000gn/T/5a292808d45cf.patch'[39m
+    [32mhttps://www.drupal.org/files/issues/2880445-remove-config-write-warning-2.patch[39m ([33m2880445 - Config sync should not throw a warning when not being writable[39m)
+[33mcd 'web/core' && git --git-dir=. apply --check '-p1' '/var/folders/56/3lq570yx4ln1j2mjw_rgf4_80000gn/T/5a2928092c2b3.patch'[39m
+[37;41merror: core/modules/config/config.install: No such file or directory
+[39;49m
+[33mcd 'web/core' && git --git-dir=. apply --check '-p0' '/var/folders/56/3lq570yx4ln1j2mjw_rgf4_80000gn/T/5a2928092c2b3.patch'[39m
+[37;41merror: a/core/modules/config/config.install: No such file or directory
+[39;49m
+[33mcd 'web/core' && git --git-dir=. apply --check '-p2' '/var/folders/56/3lq570yx4ln1j2mjw_rgf4_80000gn/T/5a2928092c2b3.patch'[39m
+[33mcd 'web/core' && git --git-dir=. apply '-p2' '/var/folders/56/3lq570yx4ln1j2mjw_rgf4_80000gn/T/5a2928092c2b3.patch'[39m
+    [32mhttps://www.drupal.org/files/issues/2869592-remove-update-warning-7.patch[39m ([33m2869592 - Disabled update module shouldn't produce a status report warning[39m)
+[33mcd 'web/core' && git --git-dir=. apply --check '-p1' '/var/folders/56/3lq570yx4ln1j2mjw_rgf4_80000gn/T/5a2928097a048.patch'[39m
+[37;41merror: core/modules/system/system.install: No such file or directory
+[39;49m
+[33mcd 'web/core' && git --git-dir=. apply --check '-p0' '/var/folders/56/3lq570yx4ln1j2mjw_rgf4_80000gn/T/5a2928097a048.patch'[39m
+[37;41merror: a/core/modules/system/system.install: No such file or directory
+[39;49m
+[33mcd 'web/core' && git --git-dir=. apply --check '-p2' '/var/folders/56/3lq570yx4ln1j2mjw_rgf4_80000gn/T/5a2928097a048.patch'[39m
+[33mcd 'web/core' && git --git-dir=. apply '-p2' '/var/folders/56/3lq570yx4ln1j2mjw_rgf4_80000gn/T/5a2928097a048.patch'[39m
+    [32mhttps://www.drupal.org/files/issues/2885441-2.patch[39m ([33m2885441 - EntityReferenceAutocompleteWidget should define its size setting as an integer[39m)
+[33mcd 'web/core' && git --git-dir=. apply --check '-p1' '/var/folders/56/3lq570yx4ln1j2mjw_rgf4_80000gn/T/5a292809c655a.patch'[39m
+[37;41merror: core/lib/Drupal/Core/Field/Plugin/Field/FieldWidget/EntityReferenceAutocompleteWidget.php: No such file or directory
+[39;49m
+[33mcd 'web/core' && git --git-dir=. apply --check '-p0' '/var/folders/56/3lq570yx4ln1j2mjw_rgf4_80000gn/T/5a292809c655a.patch'[39m
+[37;41merror: a/core/lib/Drupal/Core/Field/Plugin/Field/FieldWidget/EntityReferenceAutocompleteWidget.php: No such file or directory
+[39;49m
+[33mcd 'web/core' && git --git-dir=. apply --check '-p2' '/var/folders/56/3lq570yx4ln1j2mjw_rgf4_80000gn/T/5a292809c655a.patch'[39m
+[33mcd 'web/core' && git --git-dir=. apply '-p2' '/var/folders/56/3lq570yx4ln1j2mjw_rgf4_80000gn/T/5a292809c655a.patch'[39m
+    [32mhttps://www.drupal.org/files/issues/core-media-add-name-to-display-2912298-25.patch[39m ([33m2912298 - Make media name available on manage display[39m)
+[33mcd 'web/core' && git --git-dir=. apply --check '-p1' '/var/folders/56/3lq570yx4ln1j2mjw_rgf4_80000gn/T/5a29280a1ee3b.patch'[39m
+[37;41merror: core/modules/media/config/install/core.entity_view_display.media.file.default.yml: No such file or directory
+error: core/modules/media/config/install/core.entity_view_display.media.image.default.yml: No such file or directory
+error: core/modules/media/src/Entity/Media.php: No such file or directory
+error: core/modules/media/tests/src/Kernel/MediaTest.php: No such file or directory
+[39;49m
+[33mcd 'web/core' && git --git-dir=. apply --check '-p0' '/var/folders/56/3lq570yx4ln1j2mjw_rgf4_80000gn/T/5a29280a1ee3b.patch'[39m
+[37;41merror: a/core/modules/media/config/install/core.entity_view_display.media.file.default.yml: No such file or directory
+error: a/core/modules/media/config/install/core.entity_view_display.media.image.default.yml: No such file or directory
+error: a/core/modules/media/src/Entity/Media.php: No such file or directory
+error: a/core/modules/media/tests/src/Kernel/MediaTest.php: No such file or directory
+[39;49m
+[33mcd 'web/core' && git --git-dir=. apply --check '-p2' '/var/folders/56/3lq570yx4ln1j2mjw_rgf4_80000gn/T/5a29280a1ee3b.patch'[39m
+[33mcd 'web/core' && git --git-dir=. apply '-p2' '/var/folders/56/3lq570yx4ln1j2mjw_rgf4_80000gn/T/5a29280a1ee3b.patch'[39m
+    [32mhttps://www.drupal.org/files/issues/2883813-27.patch[39m ([33m2883813 - Move File/Image media type into Standard once Media is stable[39m)
+[33mcd 'web/core' && git --git-dir=. apply --check '-p1' '/var/folders/56/3lq570yx4ln1j2mjw_rgf4_80000gn/T/5a29280a6c2ef.patch'[39m
+[37;41merror: core/modules/hal/tests/src/Functional/EntityResource/Media/MediaHalJsonAnonTest.php: No such file or directory
+error: core/modules/media/tests/modules/media_test_type/media_test_type.info.yml: No such file or directory
+error: core/modules/media/tests/src/Functional/MediaFunctionalTestCreateMediaTypeTrait.php: No such file or directory
+error: core/modules/media/tests/src/Functional/MediaRevisionTest.php: No such file or directory
+error: core/modules/media/tests/src/Functional/MediaSourceFileTest.php: No such file or directory
+error: core/modules/media/tests/src/Functional/MediaUiFunctionalTest.php: No such file or directory
+error: core/modules/media/tests/src/FunctionalJavascript/MediaSourceFileTest.php: No such file or directory
+error: core/modules/media/tests/src/FunctionalJavascript/MediaSourceImageTest.php: No such file or directory
+error: core/modules/media/tests/src/FunctionalJavascript/MediaUiJavascriptTest.php: No such file or directory
+error: core/modules/media/tests/src/FunctionalJavascript/MediaViewsWizardTest.php: No such file or directory
+error: core/modules/media/tests/src/Kernel/MediaSourceFileTest.php: No such file or directory
+error: core/modules/rest/tests/src/Functional/EntityResource/Media/MediaResourceTestBase.php: No such file or directory
+error: core/modules/media/config/install/core.entity_form_display.media.file.default.yml: No such file or directory
+error: core/modules/media/config/install/core.entity_form_display.media.image.default.yml: No such file or directory
+error: core/modules/media/config/install/core.entity_view_display.media.file.default.yml: No such file or directory
+error: core/modules/media/config/install/core.entity_view_display.media.image.default.yml: No such file or directory
+error: core/modules/media/config/install/field.field.media.file.field_media_file.yml: No such file or directory
+error: core/modules/media/config/install/field.field.media.image.field_media_image.yml: No such file or directory
+error: core/modules/media/config/install/field.storage.media.field_media_file.yml: No such file or directory
+error: core/modules/media/config/install/field.storage.media.field_media_image.yml: No such file or directory
+error: core/modules/media/config/install/media.type.file.yml: No such file or directory
+error: core/modules/media/config/install/media.type.image.yml: No such file or directory
+[39;49m
+[33mcd 'web/core' && git --git-dir=. apply --check '-p0' '/var/folders/56/3lq570yx4ln1j2mjw_rgf4_80000gn/T/5a29280a6c2ef.patch'[39m
+[37;41merror: a/core/modules/hal/tests/src/Functional/EntityResource/Media/MediaHalJsonAnonTest.php: No such file or directory
+error: a/core/modules/media/tests/modules/media_test_type/media_test_type.info.yml: No such file or directory
+error: a/core/modules/media/tests/src/Functional/MediaFunctionalTestCreateMediaTypeTrait.php: No such file or directory
+error: a/core/modules/media/tests/src/Functional/MediaRevisionTest.php: No such file or directory
+error: a/core/modules/media/tests/src/Functional/MediaSourceFileTest.php: No such file or directory
+error: a/core/modules/media/tests/src/Functional/MediaUiFunctionalTest.php: No such file or directory
+error: a/core/modules/media/tests/src/FunctionalJavascript/MediaSourceFileTest.php: No such file or directory
+error: a/core/modules/media/tests/src/FunctionalJavascript/MediaSourceImageTest.php: No such file or directory
+error: a/core/modules/media/tests/src/FunctionalJavascript/MediaUiJavascriptTest.php: No such file or directory
+error: a/core/modules/media/tests/src/FunctionalJavascript/MediaViewsWizardTest.php: No such file or directory
+error: a/core/modules/media/tests/src/Kernel/MediaSourceFileTest.php: No such file or directory
+error: a/core/modules/rest/tests/src/Functional/EntityResource/Media/MediaResourceTestBase.php: No such file or directory
+error: core/modules/media/config/install/core.entity_form_display.media.file.default.yml: No such file or directory
+error: core/modules/media/config/install/core.entity_form_display.media.image.default.yml: No such file or directory
+error: core/modules/media/config/install/core.entity_view_display.media.file.default.yml: No such file or directory
+error: core/modules/media/config/install/core.entity_view_display.media.image.default.yml: No such file or directory
+error: core/modules/media/config/install/field.field.media.file.field_media_file.yml: No such file or directory
+error: core/modules/media/config/install/field.field.media.image.field_media_image.yml: No such file or directory
+error: core/modules/media/config/install/field.storage.media.field_media_file.yml: No such file or directory
+error: core/modules/media/config/install/field.storage.media.field_media_image.yml: No such file or directory
+error: core/modules/media/config/install/media.type.file.yml: No such file or directory
+error: core/modules/media/config/install/media.type.image.yml: No such file or directory
+[39;49m
+[33mcd 'web/core' && git --git-dir=. apply --check '-p2' '/var/folders/56/3lq570yx4ln1j2mjw_rgf4_80000gn/T/5a29280a6c2ef.patch'[39m
+[33mcd 'web/core' && git --git-dir=. apply '-p2' '/var/folders/56/3lq570yx4ln1j2mjw_rgf4_80000gn/T/5a29280a6c2ef.patch'[39m
+    [32mhttps://www.drupal.org/files/issues/2877383-23.patch[39m ([33m2877383 - Add action support to Media module[39m)
+[33mcd 'web/core' && git --git-dir=. apply --check '-p1' '/var/folders/56/3lq570yx4ln1j2mjw_rgf4_80000gn/T/5a29280aba4e9.patch'[39m
+[37;41merror: core/modules/media/config/optional/views.view.media.yml: No such file or directory
+error: core/modules/media/config/schema/media.schema.yml: No such file or directory
+[39;49m
+[33mcd 'web/core' && git --git-dir=. apply --check '-p0' '/var/folders/56/3lq570yx4ln1j2mjw_rgf4_80000gn/T/5a29280aba4e9.patch'[39m
+[37;41merror: a/core/modules/media/config/optional/views.view.media.yml: No such file or directory
+error: a/core/modules/media/config/schema/media.schema.yml: No such file or directory
+[39;49m
+[33mcd 'web/core' && git --git-dir=. apply --check '-p2' '/var/folders/56/3lq570yx4ln1j2mjw_rgf4_80000gn/T/5a29280aba4e9.patch'[39m
+[33mcd 'web/core' && git --git-dir=. apply '-p2' '/var/folders/56/3lq570yx4ln1j2mjw_rgf4_80000gn/T/5a29280aba4e9.patch'[39m
+    [32mhttps://www.drupal.org/files/issues/2862041-229.patch[39m ([33m2862041 - Provide useful Views filters for Content Moderation State fields[39m)
+[33mcd 'web/core' && git --git-dir=. apply --check '-p1' '/var/folders/56/3lq570yx4ln1j2mjw_rgf4_80000gn/T/5a29280b13a48.patch'[39m
+[37;41merror: core/modules/content_moderation/src/ViewsData.php: No such file or directory
+error: core/modules/content_moderation/tests/modules/content_moderation_test_views/content_moderation_test_views.info.yml: No such file or directory
+error: core/modules/system/tests/modules/entity_test/src/Entity/EntityTestNoBundle.php: No such file or directory
+error: core/modules/views/src/Plugin/views/filter/InOperator.php: No such file or directory
+error: core/modules/workflows/src/WorkflowTypeInterface.php: No such file or directory
+[39;49m
+[33mcd 'web/core' && git --git-dir=. apply --check '-p0' '/var/folders/56/3lq570yx4ln1j2mjw_rgf4_80000gn/T/5a29280b13a48.patch'[39m
+[37;41merror: a/core/modules/content_moderation/src/ViewsData.php: No such file or directory
+error: a/core/modules/content_moderation/tests/modules/content_moderation_test_views/content_moderation_test_views.info.yml: No such file or directory
+[39;49m
+[37;41merror: a/core/modules/system/tests/modules/entity_test/src/Entity/EntityTestNoBundle.php: No such file or directory
+error: a/core/modules/views/src/Plugin/views/filter/InOperator.php: No such file or directory
+error: a/core/modules/workflows/src/WorkflowTypeInterface.php: No such file or directory
+[39;49m
+[33mcd 'web/core' && git --git-dir=. apply --check '-p2' '/var/folders/56/3lq570yx4ln1j2mjw_rgf4_80000gn/T/5a29280b13a48.patch'[39m
+[33mcd 'web/core' && git --git-dir=. apply '-p2' '/var/folders/56/3lq570yx4ln1j2mjw_rgf4_80000gn/T/5a29280b13a48.patch'[39m
+[37;41m/var/folders/56/3lq570yx4ln1j2mjw_rgf4_80000gn/T/5a29280b13a48.patch:594: new blank line at EOF.
++
+/var/folders/56/3lq570yx4ln1j2mjw_rgf4_80000gn/T/5a29280b13a48.patch:768: new blank line at EOF.
++
+/var/folders/56/3lq570yx4ln1j2mjw_rgf4_80000gn/T/5a29280b13a48.patch:978: new blank line at EOF.
++
+[39;49m
+[37;41mwarning: 3 lines add whitespace errors.
+[39;49m
+    [32mhttps://www.drupal.org/files/issues/2815221-69-8.4.x.patch[39m ([33m2815221 - Add quickedit to the latest-revision route[39m)
+[33mcd 'web/core' && git --git-dir=. apply --check '-p1' '/var/folders/56/3lq570yx4ln1j2mjw_rgf4_80000gn/T/5a29280b601dc.patch'[39m
+[37;41merror: core/lib/Drupal/Core/Entity/ContentEntityBase.php: No such file or directory
+error: core/lib/Drupal/Core/Entity/RevisionableInterface.php: No such file or directory
+error: core/modules/content_moderation/content_moderation.services.yml: No such file or directory
+error: core/modules/editor/editor.routing.yml: No such file or directory
+error: core/modules/image/image.routing.yml: No such file or directory
+error: core/modules/node/src/NodeViewBuilder.php: No such file or directory
+error: core/modules/quickedit/quickedit.routing.yml: No such file or directory
+[39;49m
+[33mcd 'web/core' && git --git-dir=. apply --check '-p0' '/var/folders/56/3lq570yx4ln1j2mjw_rgf4_80000gn/T/5a29280b601dc.patch'[39m
+[37;41merror: a/core/lib/Drupal/Core/Entity/ContentEntityBase.php: No such file or directory
+error: a/core/lib/Drupal/Core/Entity/RevisionableInterface.php: No such file or directory
+error: a/core/modules/content_moderation/content_moderation.services.yml: No such file or directory
+error: a/core/modules/editor/editor.routing.yml: No such file or directory
+error: a/core/modules/image/image.routing.yml: No such file or directory
+error: a/core/modules/node/src/NodeViewBuilder.php: No such file or directory
+error: a/core/modules/quickedit/quickedit.routing.yml: No such file or directory
+[39;49m
+[33mcd 'web/core' && git --git-dir=. apply --check '-p2' '/var/folders/56/3lq570yx4ln1j2mjw_rgf4_80000gn/T/5a29280b601dc.patch'[39m
+[33mcd 'web/core' && git --git-dir=. apply '-p2' '/var/folders/56/3lq570yx4ln1j2mjw_rgf4_80000gn/T/5a29280b601dc.patch'[39m
+
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for psr/simple-cache.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for psr/cache.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for symfony/polyfill-apcu.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for symfony/cache.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for symfony/expression-language.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for symfony/dom-crawler.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for symfony/css-selector.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for jakub-onderka/php-console-color.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for jakub-onderka/php-console-highlighter.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for dnoegel/php-xdg-base-dir.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for nikic/php-parser.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for symfony/var-dumper.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for psy/psysh.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for gabordemooij/redbean.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for vlucas/phpdotenv.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for drupal/console-dotenv.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for webmozart/assert.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for webmozart/path-util.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for webflo/drupal-finder.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for symfony/filesystem.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for symfony/config.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for stecman/symfony-console-completion.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for drupal/console-en.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for dflydev/placeholder-resolver.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for dflydev/dot-access-data.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for dflydev/dot-access-configuration.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for drupal/console-core.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for alchemy/zippy.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for drupal/console.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for phpdocumentor/reflection-docblock.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for pear/console_table.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for consolidation/output-formatters.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for consolidation/annotated-command.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for drush/drush.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for symfony/browser-kit.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for fabpot/goutte.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for behat/mink.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for behat/mink-browserkit-driver.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for behat/mink-goutte-driver.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for jcalderonzumba/gastonjs.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for jcalderonzumba/mink-phantomjs-driver.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for mikey179/vfsstream.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for sebastian/version.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for sebastian/global-state.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for sebastian/recursion-context.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for sebastian/exporter.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for sebastian/environment.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for sebastian/diff.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for sebastian/comparator.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for doctrine/instantiator.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for phpunit/php-text-template.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for phpunit/phpunit-mock-objects.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for phpunit/php-timer.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for phpunit/php-file-iterator.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for phpunit/php-token-stream.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for phpunit/php-code-coverage.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for phpspec/prophecy.[39m
+[32mPatches already gathered. Skipping[39m
+[32mNo patches found for phpunit/phpunit.[39m
+[32mCreating packages services cache file: [39m
+/Users/william/Repositories/sandbox/composer-patch-test/vendor/drupal/console/extend.console.uninstall.services.yml
+Create a sites/default/settings.php file with chmod 0666
+Create a sites/default/files directory with chmod 0777
