@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "54eb2bdb160fbf6bf487f57481e4c4cc",
+    "content-hash": "5361f9519ef42c7384723ea7f41d7a29",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -403,16 +403,16 @@
         },
         {
             "name": "cweagans/composer-patches",
-            "version": "1.6.3",
+            "version": "dev-issue-174",
             "source": {
                 "type": "git",
-                "url": "https://github.com/cweagans/composer-patches.git",
-                "reference": "730f0f620845974764a91482ac936cc6f39da184"
+                "url": "https://github.com/danepowell/composer-patches.git",
+                "reference": "c14b6c385226d2a65cc34a6ec4ba52193a5b1bc6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cweagans/composer-patches/zipball/730f0f620845974764a91482ac936cc6f39da184",
-                "reference": "730f0f620845974764a91482ac936cc6f39da184",
+                "url": "https://api.github.com/repos/danepowell/composer-patches/zipball/c14b6c385226d2a65cc34a6ec4ba52193a5b1bc6",
+                "reference": "c14b6c385226d2a65cc34a6ec4ba52193a5b1bc6",
                 "shasum": ""
             },
             "require": {
@@ -432,7 +432,11 @@
                     "cweagans\\Composer\\": "src"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "autoload-dev": {
+                "psr-4": {
+                    "cweagans\\Composer\\Tests\\": "tests"
+                }
+            },
             "license": [
                 "BSD-2-Clause"
             ],
@@ -443,7 +447,10 @@
                 }
             ],
             "description": "Provides a way to patch Composer packages.",
-            "time": "2017-11-22T20:18:27+00:00"
+            "support": {
+                "source": "https://github.com/danepowell/composer-patches/tree/issue-174"
+            },
+            "time": "2017-12-01T00:31:23+00:00"
         },
         {
             "name": "dflydev/dot-access-configuration",
@@ -6075,9 +6082,18 @@
             "time": "2017-11-07T14:20:24+00:00"
         }
     ],
-    "aliases": [],
+    "aliases": [
+        {
+            "alias": "1.6.2",
+            "alias_normalized": "1.6.2.0",
+            "version": "dev-issue-174",
+            "package": "cweagans/composer-patches"
+        }
+    ],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "cweagans/composer-patches": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
